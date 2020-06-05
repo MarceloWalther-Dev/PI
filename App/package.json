@@ -1,0 +1,27 @@
+{
+  "name": "app",
+  "version": "1.0.0",
+  "description": "Application that will facilitate access to health for the community as a whole.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MarceloWalther-Dev/College.git"
+  },
+  "author": "Marcelo Walther, Victor Georges, Lenin, Juliana Souza, Gabriel Galinha.",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MarceloWalther-Dev/College/issues"
+  },
+  "homepage": "https://github.com/MarceloWalther-Dev/College#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "ejs": "^3.0.2",
+    "express": "^4.17.1",
+    "mysql2": "^2.1.0",
+    "nodemon": "^2.0.3",
+    "sequelize": "^5.21.9"
+  }
+}

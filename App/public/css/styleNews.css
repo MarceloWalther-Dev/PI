@@ -1,0 +1,146 @@
+/* <--Noticias--> */
+.container_1 {
+    display: flex;
+}
+.container_2 {
+    display: flex;
+}
+.container_3 {
+    display: flex;
+}
+.titulo_noticias {
+    font-size: 28px;
+    margin-top: 25px;
+    margin-bottom: 10px ;
+}
+
+.texto_noticias {
+    font-size: 18px;
+    margin-top: 30px;
+    
+}
+
+#primeira_noticia {
+    border: 1px solid black;
+    margin: 10px;
+    padding: 25px;
+    border-radius: 6px;
+    box-shadow: 3px 9px 16px black;
+}
+#primeira_noticia button{
+    font-size: 20px;
+    margin-left: 170px;
+    text-decoration: none; 
+    color: steelblue;
+    border: none; 
+    cursor: pointer ; 
+    outline: none; 
+}
+#primeira_noticia button:hover{
+    color: rgb(1, 87, 247);
+    font-weight: bold;
+}
+
+#segunda_noticia {
+    border: 1px solid black;
+    margin: 10px;
+    padding: 25px;
+    border-radius: 6px;
+    box-shadow: 3px 9px 16px black;
+    
+}
+#segunda_noticia button{
+    font-size: 20px;
+    margin-left: 200px;
+    margin-top: 30px;
+    text-decoration: none; 
+    color: steelblue;
+    border: none; 
+    cursor: pointer ; 
+    outline: none; 
+}
+#segunda_noticia button:hover{
+    color: rgb(1, 87, 247);
+    font-weight: bold;
+}
+#terceira_noticia {
+    border: 1px solid black;
+    margin: 10px;
+    padding: 25px;
+    border-radius: 6px;
+    box-shadow: 3px 9px 16px black;
+}
+#terceira_noticia button{
+    font-size: 20px;
+    margin-left: 170px;
+    text-decoration: none; 
+    color: steelblue;
+    border: none; 
+    cursor: pointer ; 
+    outline: none; 
+}
+#terceira_noticia button:hover{
+    color: rgb(1, 87, 247);
+    font-weight: bold;
+}
+#quarta_noticia {
+    border: 1px solid black;
+    margin: 10px;
+    padding: 25px;
+    border-radius: 6px;
+    box-shadow: 3px 9px 16px black;
+}
+#quarta_noticia button{
+    font-size: 20px;
+    margin-left: 170px;
+    text-decoration: none; 
+    color: steelblue;
+    border: none; 
+    cursor: pointer ; 
+    outline: none; 
+}
+#quarta_noticia button:hover{
+    color: rgb(1, 87, 247);
+    font-weight: bold;
+}
+
+#quinta_noticia {
+    border: 1px solid black;
+    margin: 10px;
+    padding: 25px;
+    border-radius: 6px;
+    box-shadow: 3px 9px 16px black;
+}
+#quinta_noticia button{
+    font-size: 20px;
+    margin-left: 170px;
+    text-decoration: none; 
+    color: steelblue;
+    border: none; 
+    cursor: pointer ; 
+    outline: none; 
+}
+#quinta_noticia button:hover{
+    color: rgb(1, 87, 247);
+    font-weight: bold;
+}
+#sexta_noticia {
+    border: 1px solid black;
+    margin: 10px;
+    padding: 25px;
+    border-radius: 6px;
+    box-shadow: 3px 9px 16px black;
+}
+#sexta_noticia button{
+    font-size: 20px;
+    margin-left: 170px;
+    text-decoration: none; 
+    color: steelblue;
+    border: none; 
+    cursor: pointer ; 
+    outline: none; 
+}
+#sexta_noticia button:hover{
+    color: rgb(1, 87, 247);
+    font-weight: bold;
+}

@@ -1,0 +1,37 @@
+<%- include ('partials/header.ejs') -%> 
+<%- include ('partials/navbar.ejs') -%> 
+
+    
+    <div class="container" id="form">
+        <br>
+        <h3>Formulario</h3>
+        <br>
+        <form action="/home">
+            <label for="">Nome:</label>
+            <input class="form-control" type="text" name="nome" id="" placeholder="Nome">
+            <br>
+            <label for="">Cep:</label>
+            <input class="form-control" type="number" name="cep" id="cep" placeholder="cep">
+            <br>
+            <label for="">Endereço:</label>
+            <input class="form-control" type="text" name="endereco" id="" placeholder="endereço">
+            <br>
+            <label for="">Telefone:</label>
+            <input class="form-control" type="tel" name="telefone" id="" placeholder="telefone">
+            <br>
+            <label for="">Cpf:</label>
+            <input class="form-control" type="number" name="cpf" id="" placeholder="cpf">
+            <br>
+            <label for="">Email:</label>
+            <input class="form-control" type="email" name="email" id="" placeholder="email">
+            <br>
+            <label for="">Data Nascimento:</label>
+            <input class="form-control" type="date" name="dataNascimento" id="" placeholder="Data de nascimento">
+            <br>            
+            <button type="submit" class="btn btn-success">Enviar</button>           
+        </form>        
+        <br>
+    </div>
+
+    <div class="teste"> <h1>teste</h1></div>
+    <%- include ('partials/footer.ejs') -%> 

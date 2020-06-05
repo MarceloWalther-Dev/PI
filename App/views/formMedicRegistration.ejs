@@ -1,0 +1,44 @@
+<%- include ('partials/header.ejs') -%> 
+<%- include ('partials/navbar.ejs') -%> 
+
+    
+    <div class="container" id="form">
+        <br>
+        <h3>Formulario</h3>
+        <br>
+        <form action="/home">
+            <label for="">Nome:</label>
+            <input class="form-control" type="text" name="nome" id="" placeholder="Nome">
+            <br>
+            <label for="">Cpf:</label>
+            <input class="form-control" type="number" name="cpf" id="" placeholder="cpf">
+            <br>
+            <label for="">Cep:</label>
+            <input class="form-control" type="number" name="cep" id="cep" placeholder="cep">
+            <br>
+            <label for="">Endereço:</label>
+            <input class="form-control" type="text" name="endereco" id="rua" placeholder="Logradouro">
+            <br>            
+            <label for="">Numero da Casa:</label>
+            <input class="form-control" type="number" name="numeroCasa" id="" placeholder="numero da residencia">
+            <br>
+            <label for="">Telefone:</label>
+            <input class="form-control" type="tel" name="telefone" id="" placeholder="telefone">
+            <br>
+            <label for="">CRM:</label>
+            <input class="form-control" type="number" name="cpf" id="" placeholder="cpf">
+            <br>
+            <label for="">Email:</label>
+            <input class="form-control" type="email" name="email" id="" placeholder="email">
+            <br>
+            <label for="">Data Nascimento:</label>
+            <input class="form-control" type="date" name="dataNascimento" id="" placeholder="Data de nascimento">
+            <br>            
+            <button type="submit" class="btn btn-success">Enviar</button>           
+        </form>        
+        <br>
+    </div>
+
+
+    
+    <%- include ('partials/footer.ejs') -%> 
