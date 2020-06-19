@@ -8,14 +8,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/MarceloWalther-Dev/College.git"
+    "url": "git+https://github.com/MarceloWalther-Dev/PI"
   },
-  "author": "Marcelo Walther, Victor Georges, Lenin, Juliana Souza, Gabriel Galinha.",
+  "author": "Marcelo Walther, Victor Georges",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/MarceloWalther-Dev/College/issues"
+    "url": "https://github.com/MarceloWalther-Dev/PI/issues"
   },
-  "homepage": "https://github.com/MarceloWalther-Dev/College#readme",
+  "homepage": "https://github.com/MarceloWalther-Dev/PI#readme",
   "dependencies": {
     "body-parser": "^1.19.0",
     "ejs": "^3.0.2",
